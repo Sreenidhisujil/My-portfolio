@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contac Me</title>
+
+    <style>
+        body {
+            background-color: rgb(28, 26, 26);
+            color: white;
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color: #1e1c1c;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a{
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 24px 56px;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background: gray;
+            color: rgb(14, 15, 14);
+        }
+        .navbar p{
+            float: left;
+            padding-left: 24px;
+            color: aliceblue;
+            font-size: 21px;
+        }
+
+        .contact-section h1{
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: red;
+        }
+        .contact-section {
+            background-color: #1e1e1e;
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 90px;
+        }
+
+        .contact-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .icon-circle {
+            width: 50px;
+            height: 50px;
+            background-color: #2a2a2a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .icon-circle img {
+            width: 24px;
+            height: 24px;
+            filter: brightness(0) invert(1); /* make icons white in dark mode */
+        }
+
+        .contact-info h4 {
+            margin: 0 0 5px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .contact-info p {
+            margin: 0;
+            font-size: 15px;
+            color: #cccccc;
+        }
+
+        iframe {
+        width: 100%;
+        height: 300px;
+        border: 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        filter: grayscale(0.3) brightness(0.9); /* optional for dark tone */
+        }
+        .footer{
+            background-color: rgb(52, 49, 49);
+        }
+        #p1{
+            text-align: center;
+            padding: 20px;
+
+        }
+        .footer p{
+            justify-items: center;
+        }
+        .footer a{
+            padding-left: 20px;
+            color: rgb(117, 117, 125);
+        }
+        #p2{
+            text-align: right;
+            color: rgb(117, 117, 125) ;
+        }
+        @media only screen and (max-width: 600px) {
+            .navbar{grid-area: 1 / span 6;}
+            .contact-section{grid-area: 2 / span 6;}
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Sreenidhi Sujil</p>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="previousworks.html" target="_blank">Previous works</a>
+        <a href="Aboutme.html" target="_blank">About me</a>
+        <a href="home.html" target="_blank">Home</a>
+    </div>
+    <div class="contact-section">
+        <h1>Contact Me</h1>
+
+        <div class="contact-box">
+          <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Address">
+          </div>
+          <div class="contact-info">
+            <h4>Address</h4>
+            <p>Room no: 312 , Kaveri Hostel , <br>
+                Amrita Vishwa Vidyapeetham , Amritapuri <br>
+                Clappana p.o ,  Kollam , Kerala
+            </p>
+          </div>
+        </div>
+      
+        <div class="contact-box">
+          <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Call">
+          </div>
+          <div class="contact-info">
+            <h4>Call</h4>
+            <p>9633491333</p>
+          </div>
+        </div>
+      
+        <div class="contact-box">
+          <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+          </div>
+          <div class="contact-info">
+            <h4>Email Me</h4>
+            <p>Personal : sreenidhisujil28@gmail.com <br><br>
+               OutlookId : am.sc.u4cseu4cse24356@am.students.amrita.edu
+            </p>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.6683899864133!2d76.48924447449953!3d9.093942287970055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0602e7b4a2049d%3A0x3af3246b5138db0f!2sAmrita%20Vishwa%20Vidyapeetham%2C%20Amritapuri!5e0!3m2!1sen!2sin!4v1744020779134!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      </div>
+    <div class="footer">
+        <p id="p1">Sreenidhi</p>
+        <p style="color: rgb(117, 117, 125);padding-left: 20px;" >Connect With Me <br></p>
+        <a href="https://www.instagram.com/___sreenidhi.___/"><img src="instagram.png" style="height: 50px;"></a>
+        <a href="https://github.com/Sreenidhisujil"><img src="github.png" style="height: 50px;"></a>
+        <a href="https://www.linkedin.com/in/sreenidhi-sujil-1a0417322/"><img src="message.png" style="height: 50px;"></a>
+
+
+
+
+    </div>
+</body>
+</html>

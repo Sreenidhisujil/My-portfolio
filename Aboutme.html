@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            background-color: rgb(28, 26, 26);
+            color: white;
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .navbar{
+            overflow: hidden;
+            background-color: #1e1c1c;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a{
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 24px 56px;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background: gray;
+            color: rgb(14, 15, 14);
+        }
+        .navbar p{
+            float: left;
+            padding-left: 24px;
+            color: aliceblue;
+            font-size: 21px;
+        }
+        .home img{
+            margin: 190px 170px 90px 120px;
+            border-radius: 7px;
+            float: left;
+        }
+        .home h2{
+            padding-top: 90px;
+            font-size: 40px;
+        }
+        .home p{
+            font-size: 20px;
+            padding-top: 50px;
+        }
+
+        #p2{
+            text-align: right;
+            padding-right: 150px;
+        }
+        .skill h2{
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .skill {
+            margin-bottom: 30px;
+        }
+
+        .label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            background-color: #444;
+            border-radius: 3px;
+            overflow: hidden;
+            height: 8px;
+        }
+
+        .progress {
+            height: 9px;
+            background-color: #e12525;
+        }
+        .extra{
+            border: solid rgb(248, 245, 245) 3px;
+            margin-left: 40px;
+            margin-right: 40px;
+            border-radius: 20px;
+
+        }
+        .extra h1{
+            text-decoration: underline;
+            text-decoration-color: red;
+
+        }
+        .extra p{
+            padding: 30px;
+            font-weight: 300;
+            line-height: 1.6;
+            font-size: 20px;
+        }
+        .footer{
+            background-color: rgb(52, 49, 49);
+        }
+        #p1{
+            text-align: center;
+            padding: 20px;
+
+        }
+        .footer p{
+            justify-items: center;
+        }
+        .footer a{
+            padding-left: 20px;
+            color: rgb(117, 117, 125);
+        }
+        #p2{
+            text-align: right;
+            color: rgb(117, 117, 125) ;
+        }
+        @media only screen and (max-width: 600px) {
+            .navbar{grid-area: 1 / span 6;}
+            .skill{grid-area: 2 / span 6;}
+            .extra{grid-area: 3/span 6;}
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Sreenidhi Sujil</p>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="previousworks.html" target="_blank">Previous works</a>
+        <a href="Aboutme.html" target="_blank">About me</a>
+        <a href="home.html">Home</a>
+    </div>
+    <div class="home">
+        <img src="S-3874  1 (1).jpg" style="height: 350px; width: 300px;">
+        <h2><ins>About  Me</ins></h2>
+
+        <p id="p1"><b>Birthday</b> : 18 May 2006 <br><br>
+           <b>College</b> : Amrita Vishwa Vidyapeetham - Class of 2024<br><br>
+           <b>Degree </b>: Btech in Computer Science Engineering
+           <br><br>
+           <b>City :</b> Kochi
+           <br><br>
+           <b>Year of Graduation : </b> 2028<br><br><br>
+           Hello! I'm Sreenidhi
+
+I’m a passionate Computer Scince student at Amrita Vishwa Vidyapeetham,Amritapuri Campus, with a keen interest in  web development, app development, graphic design, AI, etc. I love solving problems, creating innovative projects, and continuously learning new technologies.
+        </p>
+
+        </p>
+    </div>
+
+    <div class="skill">
+        <h2><ins><center>Skills</center></ins></h2>
+        <div class="skills-container">
+            <div class="skill">
+              <div class="label">
+                <div>HTML</div>
+                <div>100%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 100%;"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="label">
+                <div>JAVA</div>
+                <div>60%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="label">
+                <div>CSS</div>
+                <div>90%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="label">
+                <div>PYTHON</div>
+                <div>98%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="label">
+                <div>JAVASCRIPT</div>
+                <div>35%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 35%;"></div>
+              </div>
+            </div>
+          
+            <div class="skill">
+              <div class="label">
+                <div>SQL</div>
+                <div>90%</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="extra">
+        <h1><center>My Interests</center></h1>
+        <p>
+            As a college student with a passion for creativity and technology, I enjoy blending both worlds through web development and design. I’m particularly interested in front-end technologies like HTML, CSS, and JavaScript, and I also work with platforms such as WordPress and tools like Photoshop to enhance both function and form. Outside the digital space, I find joy in dancing, singing, drawing, and video editing—creative outlets that inspire my approach to design and storytelling. I’m always looking to grow my skills, take on new challenges, and bring fresh, creative energy to every project I work on.
+        </p>
+    </div>
+    <div class="footer">
+        <p id="p1">Sreenidhi</p>
+        <p style="color: rgb(117, 117, 125);padding-left: 20px;" >Connect With Me <br></p>
+        <a href="https://www.instagram.com/___sreenidhi.___/"><img src="instagram.png" style="height: 50px;"></a>
+        <a href="https://github.com/Sreenidhisujil"><img src="github.png" style="height: 50px;"></a>
+        <a href="https://www.linkedin.com/in/sreenidhi-sujil-1a0417322/"><img src="message.png" style="height: 50px;"></a>
+
+
+
+
+    </div>
+
+</body>
+</html>

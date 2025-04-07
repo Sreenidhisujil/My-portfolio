@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: rgb(28, 26, 26);
+            color: white;
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color: #1e1c1c;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a{
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 24px 56px;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background: gray;
+            color: rgb(14, 15, 14);
+        }
+        .navbar p{
+            float: left;
+            padding-left: 24px;
+            color: aliceblue;
+            font-size: 21px;
+        }
+        .home img{
+            float: left;
+        }
+        .home h1{
+            font-size: 100px;
+            text-align: center;
+            padding-top: 150px;
+            padding-left: 70px;
+        }
+        .home p{
+            font-size: 36px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+            font-style: italic;
+            text-align: center;
+
+
+        }
+        #p{
+            font-size: 17px;
+            width: 700px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            float: right;
+            padding-right: 20px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .home1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .button{
+            color: black;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 30px;
+            padding: 12px 40px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            transition: 0.5s;
+            background-color: #f2f2f2;
+            text-decoration: none;
+        }
+        .footer{
+            background-color: rgb(52, 49, 49);
+        }
+        #p1{
+            text-align: center;
+            padding: 20px;
+
+        }
+        .footer p{
+            justify-items: center;
+        }
+        .footer a{
+            padding-left: 20px;
+            color: rgb(117, 117, 125);
+        }
+        #p2{
+            text-align: right;
+            color: rgb(117, 117, 125) ;
+        }
+        @media only screen and (max-width: 600px) {
+            .navbar{grid-area: 1 / span 6;}
+            .home{grid-area: 2 / span 6;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Sreenidhi Sujil</p>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="previousworks.html" target="_blank">Previous works</a>
+        <a href="Aboutme.html" target="_blank">About me</a>
+        <a href="home.html" target="_blank">Home</a>
+    </div>
+    <div class="home">
+        <img src="portfoliocoverpic.png" style="height: 620px; width: 600px;">
+        <div class="hom1">
+            <h1>
+                My<br>Portfolio
+            </h1>
+            <p>Cse Major Student
+                <br>
+                <a href="Aboutme.html"  class="button" target="_blank">About Me</a>
+            </p>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="footer">
+        <p id="p1">Sreenidhi</p>
+        <p style="color: rgb(117, 117, 125);padding-left: 20px;" >Connect With Me <br></p>
+        <a href="https://www.instagram.com/___sreenidhi.___/"><img src="instagram.png" style="height: 50px;"></a>
+        <a href="https://github.com/Sreenidhisujil"><img src="github.png" style="height: 50px;"></a>
+        <a href="https://www.linkedin.com/in/sreenidhi-sujil-1a0417322/"><img src="message.png" style="height: 50px;"></a>
+
+
+
+
+    </div>
+</body>
+</html>
